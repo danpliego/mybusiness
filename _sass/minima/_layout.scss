@@ -1,0 +1,98 @@
+.default-page {
+  background: url('/images/bg-section.png') no-repeat top center fixed;
+  background-size: cover;
+  &.huatulco {
+    background: url('/images/huatulco-bg.png') no-repeat top center fixed;
+  }
+}
+.page-title {
+  margin-top: 2rem;
+}
+.white-section {
+  background: $white;
+}
+.white-box {
+  margin: 2rem 0 4rem;
+  background: $white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 10px rgba(0,0,0,.05);
+  padding: 2rem;
+}
+.icon-list {
+  margin-bottom: 1rem;
+  svg {
+    position: absolute;
+    margin-left: -2rem;
+  }
+  li {
+    padding-left: 2rem;
+    margin-bottom: .33rem;
+  }
+}
+.section-more-info {
+  padding: 2rem 0;
+  border-top: 1px solid $gray-d-color;
+  text-align: center;
+  background: $white;
+}
+.form-horizontal {
+  .control-label {
+    font-weight: 600;
+    font-size: .9rem;
+    padding-right: 0;
+    padding-top: .66rem;
+  }
+}
+.videos {
+  padding: 0;
+  border-radius: 0;
+  margin-top: 0;
+  .videos-menu {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    li {
+      display: inline-block;
+      flex: 0 0 25%;
+      a {
+        width: 100%;
+        height: 58px;
+        display: block;
+        border-right: 1px solid $gray-d-color;
+        border-bottom: 1px solid $gray-d-color;
+        padding: 1rem;
+        text-align: center;
+        @extend .uppercase;
+        font-weight: $bold;
+        font-size: .85rem;
+        img {
+          margin-right: .33rem;
+        }
+        &:hover {
+          text-decoration: none;
+          background: $gray-l-color;
+        }
+      }
+      &:last-child {
+        border-right: 0;
+      }
+      &.active a {
+        background: $primary-xxl-color;
+      }
+    }
+  }
+  .videos-content {
+    padding: 1rem;
+    .left-menu {
+      list-style: none;
+      padding-left: 0;
+    }
+    .content-wrapper {
+      overflow: auto;
+      height: 400px;
+    }
+    .video {
+      margin-bottom: 1rem;
+    }
+  }
+}

@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>MyBusiness POS</title>
+  <link href="/assets/main.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <meta charset="utf-8">
+</head>
+
+
+  <body>
+    <nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand margin-lv2-right" href="/"><img src="/images/logo.png" width="202" alt=""></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="/productos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos y Servicios <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-icon">
+            <li>
+              <a href="/productos/mybusiness">
+                <img src="/images/icons/mybusiness.png" width="32" alt="" class="hidden-xs">
+                <span>MyBusiness POS</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/facturacion-electronica">
+                <img src="/images/icons/factura.png" width="29" alt="" class="hidden-xs">
+                <span>Facturación electrónica</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/tiempo-aire">
+                <img src="/images/icons/tiempo-aire.png" width="32" alt="" class="hidden-xs">
+                <span>Venta de tiempo aire</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/servicios-en-la-nube">
+                <img src="/images/icons/pos-tools.png" width="28" alt="" class="hidden-xs">
+                <span>Servicios en la nube</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/pos-tools">
+                <img src="/images/icons/pos-tools.png" width="28" alt="" class="hidden-xs">
+                <span>Pos Tools</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/contabilidad-electronica">
+                <img src="/images/icons/contabilidad.png" width="22" alt="" class="hidden-xs">
+                <span>Contabilidad electrónica</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/bill-pocket">
+                <img src="/images/icons/bill-pocket.png" width="29" alt="" class="hidden-xs">
+                <span>Bill Pocket</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/bill-pocket">
+                <img src="/images/icons/eventos.png" width="29" alt="" class="hidden-xs">
+                <span>Desarrollo a la medida</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/nosotros">Nosotros</a></li>
+        <li><a href="/registro-de-licencia">Registro de Licencia</a></li>
+        <li><a href="/cursos">Cursos</a></li>
+        <li><a href="/eventos">Eventos</a></li>
+        <li class="dropdown">
+          <a href="/productos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Soporte <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-icon">
+            <li>
+              <a href="/soporte/video-tutoriales/mybusiness">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Video Tutoriales</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/preguntas-frecuentes">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Preguntas Frecuentes</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/manuales">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Manuales</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/mejoras">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Mejoras</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/homologaciones">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Homologaciones</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/centros-de-servicio">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Centros de servicio</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/contacto">Contacto</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+    <div class="default-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1">
+        <div class="page-title">
+          <div class="row">
+            <div class="col-sm-6">
+              <h1 class="unmargin-top">Centros de Servicio</h1>
+            </div>
+          </div>
+        </div>
+        <div class="white-box">
+          <p><strong>**<em>Algunos servicios ofrecidos por los centros autorizados de servicio pueden tener un costo **</em></strong></p>
+
+<p><strong>Nombre comercial:</strong> AS&amp; COMERCIALIZADORA</p>
+
+<p><strong>Nombre del asesor:</strong> JOAQUIN ALMAGUER</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>Zona 1 norte de Veracruz(Poza Rica, Tuxpan, Papantla, Alamo, Gutierrez Zamora, Tecolutla, Martinez de la Torre, Costa Esmeralda, San rafael)</p>
+
+<p>Zona 2 sierra norte de Puebla(Chignahuapan, Zacatlan, Huauchinango, Necaxa, Xicotepec de Juarez, La Ceiba, Villa Lazaro Cardenas)</p>
+
+<p>Zona 3 Toluca(San Mateo Atenco, Lerma, Tultepec, Ocoyoacac, Atarasquillo, Totoltepec)</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina Toluca: (01 722) 196-2714</p>
+
+<p>Movil Toluca: (722) 358-1313</p>
+
+<p>Oficina Veracruz: (01 766) 845-0488</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p><a href="mailto:asctoluca@hotmail.com">asctoluca@hotmail.com</a></p>
+
+<p>ascveracruz@hotmail.com</p>
+
+<p>ascpuebla@hotmail.com</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="#">www.as&amp;comercializadora.com</a></p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> ZAVS INFORMATICA APLICADA</p>
+
+<p><strong>Nombre del asesor:</strong> SANTIAGO GALETTO</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>Distrito Federal, Ecatepec, Coacalco, Satelite, Tultitlan</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina Mexico: (01 55) 3028-3474</p>
+
+<p>Movil Mexico: (55) 2999-6631</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>sgaletto@zavs-informatica.net</p>
+
+<p>mbpos.asesoria@gmail.com</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="#">&lt;www.zavs-informatica.net/a&gt;</a></p>
+
+<p><strong>Mensajeria instantanea:</strong></p>
+
+<p><strong>Skype:</strong> mbpos.asesoria</p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> TECNOLOGIA DE SISTEMAS</p>
+
+<p><strong>Nombre del asesor:</strong> MIGUEL ANGEL MEJIA</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>Estado de México (Lerma, San Mateo Atenco, Ocoyoacac, Capuluac, Tenango, Tenancingo, Toluca, Zinacantepec, Almoloya de Juarez, Ixtlahuaca, Atlacomulco, Metepec, Mexicalcingo, Xonacatlan, Huixquilucan)</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina Mexico: (01 722) 541-0676, (01 722) 541-0677</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>informacion@tecnologiadesistemas.com</p>
+
+<p>ventas@tecnologiadesistemas.com</p>
+
+<p>miguelmejia@tecnologiadesistemas.com</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="www.tecnologiadesistemas.com">www.tecnologiadesistemas.com</a></p>
+
+<p><strong>Mensajeria instantanea:</strong></p>
+
+<p><strong>Skype:</strong> miguel.mybusinesspos</p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> SPECTRUM</p>
+
+<p><strong>Nombre del asesor:</strong> EDUARDO MARTINEZ</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>Centro, Sur, Oriente del DF y su zona conurbada Nezahualcoyotl, Chalco, Ixtapaluca, Iztapalapa, Los Reyes</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina Mexico: (01 55) 5792-1294, (01 55) 2619-4279</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>contacto@spectrum.mx</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="http://www.spectrum-mexico.com/">http://www.spectrum-mexico.com/</a></p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> ESHOPMC BY MDKS CONSULTORES</p>
+
+<p><strong>Nombre del asesor:</strong> LEONARDO MILLAN</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>Estado de México, Oaxaca</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina Toluca: (01 722) 522-4279 167-1826 492-8966</p>
+
+<p>Móvil: (722) 3503499</p>
+
+<p>Nextel: 62<em>10</em>10770 62<em>10</em>52711</p>
+
+<p>Oficina Tejupilco: (01)722-1-51-97-33</p>
+
+<p>Oficina Puerto Escondido, Oaxaca: (01-954)113-5927</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>soporte.mybusinesspos@eshopmc.com</p>
+
+<p>leonardo.millan@eshopmc.com</p>
+
+<p>soporte.tej@eshopmc.com</p>
+
+<p>soporte@mdksconsultoresst.net</p>
+
+<p><strong>Mensajeria instantanea:</strong></p>
+
+<p>SKYPE: mybusinesspos.leonardo.millan.g.</p>
+
+<p>MSN: mdkstoluca@live.com.mx</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="&gt;www.eshopmc.com">www.eshopmc.com</a></p>
+
+<p><a href="www.mdksconsultoresst.net">www.mdksconsultoresst.net</a></p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> SERVICIOS IT</p>
+
+<p><strong>Nombre del asesor:</strong> JORGE VILLAMIL</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>Zona Noroeste: Sonora, Sinaloa, Chihuahua, Baja California</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: (01 662) 213-0646</p>
+
+<p>Móvil: (662) 202-2925</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>jorge.villamil@serviciosit.com.mx</p>
+
+<p><strong>Mensajeria instantanea:</strong></p>
+
+<p><strong>SKYPE:</strong> jorge.villamil</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="http://www.serviciosit.com.mx">http://www.serviciosit.com.mx</a></p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> JACHMER COMPUTACION</p>
+
+<p><strong>Nombre del asesor:</strong> MERCEDES AMBRIZ</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>Puebla</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: (01 222) 889-7448</p>
+
+<p>Móvil: (222) 354-7680</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>jachmer@hotmail.com</p>
+
+<hr />
+
+<p><strong>Nombre del asesor:</strong> ING. VILLICAÑA</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>En Michoacán: Morelia, Tarímbaro, Cuitzeo, Huandacareo, Santa Ana Maya, Pátzcuaro, Quiroga, Zacapu, Puruándiro, Los Reyes, Peribán, Tocumbo, Cotija, Tingüindin, Tancítaro, Zinapécuaro, Charo, Querendaro, Indaparapeo, Ciudad Hidalgo, Maravatio, Tuxpan, Zitácuaro, Tuzantla, Contepec, Ario de Rosales, Santa Clara, La Huacana, Tacámbaro, Pedernales, Puruarán, Uruapan, Paracho, Nueva Italia, Apatzingán, Tepalcatepec, Zamora, Jacona, Tangamandapio, Chavinda, Sahuayo, Jiquilpán, Cojumatlán, Chilchota, La Piedad, Numarán y Lázaro Cárdenas.</p>
+
+<p>En Guanajuato: Uriangato, Moroleón, Yuriria, Valle de Santiago, Salvatierra, Irapuato, Silao, San Miguel Allende, Celaya, Acambaro y Jerecuaro.</p>
+
+<p>En Jalisco: La Barca</p>
+
+<p>En Guerrero: Zihuatanejo e Ixtapa.</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: (01 443) 281-1644 (01 351) 141-4320</p>
+
+<p>Móvil: (443) 146-7737</p>
+
+<p>Nextel ID 92<em>915180</em>1</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>integracion.tecnologica@yahoo.com</p>
+
+<p><strong>Skype:</strong> ingvillicana</p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> POSGO</p>
+
+<p><strong>Nombre del asesor:</strong> ROSA MARIA TREVILLA</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>Toluca, Zinacantepec, Metepec, Lerma</p>
+
+<p>Ubicacion:</p>
+
+<p>Calle Jose Vicente Villada No.52 PTE. Metepec, México. Plaza “LOS ALCATRACES” Local. “M”. Primer Piso.</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: (01 722) 232-4985</p>
+
+<p>Móvil: (722) 513-7079</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>ventas@posgo.net</p>
+
+<p><strong>Mensajeria instantanea:</strong></p>
+
+<p><strong>Skype:</strong> Ventas PosGo</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="http://www.posgo.net">http://www.posgo.net</a></p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> SMART SOLUTION SYSTEMS</p>
+
+<p><strong>Nombre del asesor:</strong> SELENE GOMEZ</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>URUAPAN, MICHOACAN</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: (01 452) 523-5338</p>
+
+<p>Móvil: (452) 127-2699</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>sele_09@hotmail.com</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="http://www.smartsolutionsystem.com.mx/">http://www.smartsolutionsystem.com.mx/</a></p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> CORPORACION TECTRONIC S.A. DE C.V.</p>
+
+<p><strong>Nombre del asesor:</strong> ING. OSCAR ACOSTA</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>MATRIZ: GUADALAJARA, ZAPOPAN</p>
+
+<p>ESTADOS: JALISCO, COLIMA, NAYARIT, MICHOACAN, GUANAJUATO, AGUASCALIENTES</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: (01 33) 3615-4411 (01 33) 3615-4511 (01 33) 3615-4611</p>
+
+<p>Móvil: (33) 1410-7702</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>mybusinesspos@tectronic.com.mx</p>
+
+<p>sistemas@tectronic.com.mx</p>
+
+<p>oscar@tectronic.com.mx
+<strong>Pagina web:</strong></p>
+
+<p>http://mybusinesspos.tectronic.com.mx/</p>
+
+<p><a href="http://tectronic.com.mx/">http://tectronic.com.mx/</a></p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> GRUPO COMERCIAL NV</p>
+
+<p><strong>Nombre del asesor:</strong> RODRIGO ESCOBEDO</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>D.F Y AREA METROPOLITANA</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: (01 55) 5569-2553</p>
+
+<p>Movil: (55) 1439-9738 y (55) 5218-9629</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>crescobedo@prodigy.net.mx</p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> SUCCESSO CONSULTORIA EN SISTEMAS</p>
+
+<p><strong>Nombre del asesor:</strong> ROMYNA MONTIEL</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>METEPEC, TOLUCA</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: 01(722) 271-4259</p>
+
+<p>Movil: (722) 114-4284</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>romyna.montiel@gmail.com</p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> CLUSTER SOLUCIONES</p>
+
+<p><strong>Nombre del asesor:</strong> ERICK LAGUNES</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>ZONA CENTRO DE VERACRUZ (CORDOBA, ORIZABA, FORTIN, RIO BLANCO, NOGALES, CD. MENDOZA, ZONGOLICA, COSCOMATEPEC, HUATUSCO, PASO DEL MACHO, YANGA, CUITLAHUAC, TIERRA BLANCA, TEZONAPA, AMATLAN DE LOS REYES)</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina Córdoba: 01(271) 712-2690</p>
+
+<p>Movil: (271) 107-9299</p>
+
+<p>Radio: 52<em>304242</em>1</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>contacto@clustersoluciones.com</p>
+
+<p>ericklagunes@clustersoluciones.com</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="http://www.clustersoluciones.com">http://www.clustersoluciones.com</a></p>
+
+<p><strong>Mensajeria instantanea:</strong></p>
+
+<p><strong>Skype:</strong> ericklagunes</p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong>  SOLUCIONES POS</p>
+
+<p><strong>Nombre del asesor:</strong>  JAIME CAMPOS OREGEL</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>JALISCO, MICHOACAN, COLIMA</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: 01 (33) 8421-1211</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>Ventas: ventas@soluciones-pos.com</p>
+
+<p>Desarrollos: proyectos@soluciones-pos.com</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="http://www.soluciones-pos.com">http://www.soluciones-pos.com</a></p>
+
+<p><a href="http://soporte.soluciones-pos.com">http://soporte.soluciones-pos.com</a></p>
+
+<hr />
+
+<p><strong>Nombre comercial:</strong> RAMSORE SYSTEMS. SISTEMAS PUNTO DE VENTA Y FACTURACION ELECTRONICA</p>
+
+<p><strong>Nombre del asesor:</strong> LIC. RAMON SOSA REYES</p>
+
+<p><strong>Zona de cobertura de soporte:</strong></p>
+
+<p>CHETUMAL, BACALAR, JAVIER ROJO GOMEZ, SAN FRANCISCO BOTES, LA UNION Y ALREDEDORES HASTA 100 KM DE DISTANCIA DE CHETUMAL, Q.ROO</p>
+
+<p><strong>Telefonos de contacto:</strong></p>
+
+<p>Oficina: 01 (983) 102-1865</p>
+
+<p><strong>Correos de contacto:</strong></p>
+
+<p>ramsore@gmail.com</p>
+
+<p><strong>Pagina web:</strong></p>
+
+<p><a href="http://mybusinessposqroo.blogspot.mx/">http://mybusinessposqroo.blogspot.mx/</a></p>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="section-more-info">
+  <h4>
+    ¿Tienes dudas o necesitas más información?
+    <span class="light-title">
+      <a href="#">chatea con un asesor</a> o
+      <a href="/contacto">contáctanos</a>.
+    </span>
+  </h4>
+</div>
+
+<div class="footer-container padding-lv4-ver">
+  <div class="container">
+    <!--     BLOG
+    <div class="text-center">
+      <h4 class="section-title margin-lv4-bottom">Nuestro Blog</h4>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-xs-6 blog-entry">
+        <a href="#"><img src="/images/home/mybusiness-pic.png" alt="" class="img-responsive"></a>
+        <h5 class="padding-lv3-top"><a href="#">Entrada del blog</a></h5>
+        <p class="font-size-xs">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes.
+        </p>
+        <a href="#" class="btn btn-link btn-sm">Seguir leyendo...</a>
+      </div>
+      <div class="col-sm-3 col-xs-6 blog-entry">
+        <a href="#"><img src="/images/home/mybusiness-pic.png" alt="" class="img-responsive"></a>
+        <h5 class="padding-lv3-top"><a href="#">Entrada del blog</a></h5>
+        <p class="font-size-xs">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes.
+        </p>
+        <a href="#" class="btn btn-link btn-sm">Seguir leyendo...</a>
+      </div>
+      <div class="col-sm-3 col-xs-6 blog-entry">
+        <a href="#"><img src="/images/home/mybusiness-pic.png" alt="" class="img-responsive"></a>
+        <h5 class="padding-lv3-top"><a href="#">Entrada del blog</a></h5>
+        <p class="font-size-xs">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes.
+        </p>
+        <a href="#" class="btn btn-link btn-sm">Seguir leyendo...</a>
+      </div>
+      <div class="col-sm-3 col-xs-6 blog-entry">
+        <a href="#"><img src="/images/home/mybusiness-pic.png" alt="" class="img-responsive"></a>
+        <h5 class="padding-lv3-top"><a href="#">Entrada del blog</a></h5>
+        <p class="font-size-xs">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes.
+        </p>
+        <a href="#" class="btn btn-link btn-sm">Seguir leyendo...</a>
+      </div>
+    <hr>
+    </div> -->
+    <div class="footer row">
+      <div class="col-sm-3 margin-lv4-bottom">
+        <a href="#"><img src="/images/digi-cert.png" width="100" alt=""></a>
+      </div>
+      <div class="col-sm-3">
+        <h6>Principal</h6>
+        <ul class="list-unstyled">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/nosotros">Nosotros</a></li>
+          <li><a href="/registro-de-licencia">Registro de Licencia</a></li>
+          <li><a href="/cursos">Cursos</a></li>
+          <li><a href="/eventos">Eventos</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h6>Productos y Servicios</h6>
+        <ul class="list-unstyled">
+          <li><a href="/productos/mybusiness">MyBusiness POS</a></li>
+          <li><a href="/productos/facturacion-electronica">Facturación electrónica</a></li>
+          <li><a href="https://tiempoaire.mybusinesspos.net/" target="_blank">Tiempo Aire</a></li>
+          <li><a href="/productos/pos-tools">POS Tools</a></li>
+          <li><a href="/productos/contabilidad-electronica">Contabilidad electrónica</a></li>
+          <li><a href="/productos/bill-pocket">Bill Pocket</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h6>Otros</h6>
+        <ul class="list-unstyled">
+          <li><a href="/productos/facturacion-electronica/autofacturacion">Autofacturacion</a></li>
+          <li><a href="/donde-comprar/distribuidores">Distribuidores</a></li>
+          <li><a href="/legales-y-privacidad">Legales y Privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center">©2018 MyBusiness POS Desarrollos, S. A. de C. V.</p>
+  </div>
+</div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40199093-1', 'mybusinesspos.com');
+  ga('send', 'pageview');
+
+</script>
+
+<div class="livezilla"><!-- LiveZilla Chat Button Link Code (ALWAYS PLACE IN BODY ELEMENT) --><!-- LiveZilla Tracking Code (ALWAYS PLACE IN BODY ELEMENT) --><div id="livezilla_tracking" style="display:none"><script async="" type="text/javascript" src="https://chat.mybusinesspos.net/server.php?a=0a6b1&amp;rqst=track&amp;output=jcrpt&amp;intgroup=c29wb3J0ZQ__&amp;el=ZXM_&amp;ovlc=IzczYmUyOA__&amp;ovloo=MQ__&amp;ovloe=MQ__&amp;hots=MQ__&amp;hott=MQ__&amp;eca=MQ__&amp;ecsp=MQ__&amp;nse=0.15868118099125428"></script></div><script type="text/javascript">
+var script = document.createElement("script");script.async=true;script.type="text/javascript";var src = "https://chat.mybusinesspos.net/server.php?a=b97d2&rqst=track&output=jcrpt&nse="+Math.random();setTimeout("script.src=src;document.getElementById('livezilla_tracking').appendChild(script)",1);</script><noscript></noscript><!-- http://www.LiveZilla.net Tracking Code --><a href="javascript:void(window.open('https://chat.mybusinesspos.net/chat.php?a=a1da5','','width=590,height=760,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))" class="lz_cbl"><img src="https://chat.mybusinesspos.net/image.php?a=cc895&amp;id=1&amp;type=inlay&amp;cb=1520808245505" width="201" height="53" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; " alt="LiveZilla Live Chat Software" class=""></a></div></div>
+
+  </body>
+
+</html>

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <title>MyBusiness POS</title>
+  <link href="/assets/main.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <meta charset="utf-8">
+</head>
+
+
+  <body>
+    <nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand margin-lv2-right" href="/"><img src="/images/logo.png" width="202" alt=""></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="/productos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos y Servicios <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-icon">
+            <li>
+              <a href="/productos/mybusiness">
+                <img src="/images/icons/mybusiness.png" width="32" alt="" class="hidden-xs">
+                <span>MyBusiness POS</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/facturacion-electronica">
+                <img src="/images/icons/factura.png" width="29" alt="" class="hidden-xs">
+                <span>Facturación electrónica</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/tiempo-aire">
+                <img src="/images/icons/tiempo-aire.png" width="32" alt="" class="hidden-xs">
+                <span>Venta de tiempo aire</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/servicios-en-la-nube">
+                <img src="/images/icons/pos-tools.png" width="28" alt="" class="hidden-xs">
+                <span>Servicios en la nube</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/pos-tools">
+                <img src="/images/icons/pos-tools.png" width="28" alt="" class="hidden-xs">
+                <span>Pos Tools</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/contabilidad-electronica">
+                <img src="/images/icons/contabilidad.png" width="22" alt="" class="hidden-xs">
+                <span>Contabilidad electrónica</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/bill-pocket">
+                <img src="/images/icons/bill-pocket.png" width="29" alt="" class="hidden-xs">
+                <span>Bill Pocket</span>
+              </a>
+            </li>
+            <li>
+              <a href="/productos/bill-pocket">
+                <img src="/images/icons/eventos.png" width="29" alt="" class="hidden-xs">
+                <span>Desarrollo a la medida</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/nosotros">Nosotros</a></li>
+        <li><a href="/registro-de-licencia">Registro de Licencia</a></li>
+        <li><a href="/cursos">Cursos</a></li>
+        <li><a href="/eventos">Eventos</a></li>
+        <li class="dropdown">
+          <a href="/productos" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Soporte <span class="caret"></span></a>
+          <ul class="dropdown-menu dropdown-menu-icon">
+            <li>
+              <a href="/soporte/video-tutoriales/mybusiness">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Video Tutoriales</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/preguntas-frecuentes">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Preguntas Frecuentes</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/manuales">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Manuales</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/mejoras">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Mejoras</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/homologaciones">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Homologaciones</span>
+              </a>
+            </li>
+            <li>
+              <a href="/soporte/centros-de-servicio">
+                <img src="/images/icons/ayuda.png" width="28" alt="" class="hidden-xs">
+                <span>Centros de servicio</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/contacto">Contacto</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+    <div class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-md-6 col-sm-7 hero-content">
+        <div class="hero-main-copy">
+          <div class="hero-copy">
+            <img width="226" src="images/home/simple.png" alt="">
+            <h1>La forma <br>de administrar tu negocio.</h1>
+          </div>
+          <p class="body-xl-color">El sistema de punto de venta más sobresaliente del mercado, con el mejor precio, experiencia y facilidad de uso.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-wrapper">
+  <div class="container">
+    <div class="our-clients-container">
+      <div class="our-clients text-center">
+        <h4 class="unmargin-bottom">Algunos de Nuestros Clientes</h4>
+        <ul class="list-inline">
+          <li><a target="_blank" href="https://www.grupobimbo.com/es" class="padding-lv1-full display-block"><img src="images/home/client-logos/bimbo.png" width="62" alt=""></a></li>
+          <li><a target="_blank" href="https://www.elglobo.com.mx/" class="padding-lv1-full display-block"><img src="images/home/client-logos/el-globo.png" width="55" alt=""></a></li>
+          <li><a target="_blank" href="https://www.lumen.com.mx/" class="padding-lv1-full display-block"><img src="images/home/client-logos/bitmap.png" width="90" alt=""></a></li>
+          <li><a target="_blank" href="http://puntadelcielo.com.mx/" class="padding-lv1-full display-block"><img src="images/home/client-logos/cafe-punta-del-cielo.png" width="86" alt=""></a></li>
+          <li><a target="_blank" href="http://telmex.com/" class="padding-lv1-full display-block"><img src="images/home/client-logos/telmex.png" width="65" alt=""></a></li>
+          <li><a target="_blank" href="https://www.gmodelo.mx/" class="padding-lv1-full display-block"><img src="images/home/client-logos/grupo-modelo.png" width="50" alt=""></a></li>
+          <li><a target="_blank" href="http://wtcmexico.mx/" class="padding-lv1-full display-block"><img src="images/home/client-logos/wtc.png" width="90" alt=""></a></li>
+          <li><a target="_blank" href="http://playtex.com.mx/" class="padding-lv1-full display-block"><img src="images/home/client-logos/playtex.png" width="75" alt=""></a></li>
+          <li><a target="_blank" href="http://www.klyns.mx/" class="padding-lv1-full display-block"><img src="images/home/client-logos/klyns.png" width="75" alt=""></a></li>
+          <li><a target="_blank" href="http://www.pasteskikos.com/" class="padding-lv1-full display-block"><img src="images/home/client-logos/pastes.png" width="60" alt=""></a></li>
+          <li><a target="_blank" href="https://pollopepe.com/" class="padding-lv1-full display-block"><img src="images/home/client-logos/pollopepe.png" width="50" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="news text-center">
+        <div id="carousel-news" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-news" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-news" data-slide-to="1"></li>
+            <li data-target="#carousel-news" data-slide-to="2"></li>
+            <li data-target="#carousel-news" data-slide-to="3"></li>
+            <li data-target="#carousel-news" data-slide-to="4"></li>
+            <li data-target="#carousel-news" data-slide-to="5"></li>
+            <li data-target="#carousel-news" data-slide-to="6"></li>
+            <li data-target="#carousel-news" data-slide-to="7"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              La licencia de MyCFDI 3.3 tiene un costo de $2,320.00 y aplica para licencias nuevas y anteriores. <a href="mailto:FacturacionElectronica@MyBusinessPOS.com">Más información...</a>
+            </div>
+            <div class="item">
+              Las recargas de AT&T, como tal no están habilitadas, sin embargo, pueden ocupar las recargas de Iusacell, Unefon, Nextel, ya que son la misma compañía operadora.
+            </div>
+            <div class="item">
+              <a href="/productos/facturacion-electronica/necesitas-facturar/">¿Te urge Facturar? Mira lo que necesitas para empezar Aquí</a>
+            </div>
+            <div class="item">
+              <a href="/productos/bill-pocket">Acepta PAGOS CON TARJETA en tu negocio con BillPocket</a>
+            </div>
+            <div class="item">
+              <a href="/donde-comprar/tienda-virtual/mybusiness/">Adquiere una licencia de MyBusiness POS</a>
+            </div>
+            <div class="item">
+              <a href="/productos/mybusiness/">¿Necesitas administrar tu negocio de Punto de venta?</a>
+            </div>
+            <div class="item">
+              <a href="/soporte/video-tutoriales/mybusiness">¡Capacítate sin Costo y en cualquier lugar! VideoTutoriales.</a>
+            </div>
+            <div class="item">
+              <a href="/soporte/preguntas-frecuentes">Mira las preguntas más Frecuentes y obtén respuestas.</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section-container padding-lv5-ver">
+      <div class="text-center">
+        <h4 class="section-title">Nuestros productos y servicios</h4>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="padding-lv4-ver">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/home/mybusiness-pic.png" alt="" class="img-responsive">
+              </div>
+              <div class="col-sm-6">
+                <h2>MyBusiness POS</h2>
+                <p>
+                  Software de punto de venta y control administrativo para Windows. Con MyBusiness POS tiene al mejor software de punto de venta, con buen precio, funcionalidad, experiencia, robustez y facilidad de uso.
+                </p>
+                <a href="/productos/mybusiness" class="btn btn-primary">Cónoce más...</a>
+              </div>
+            </div>
+          </div>
+          <div class="padding-lv4-ver">
+            <div class="row align-right-desktop">
+              <div class="col-sm-6">
+                <img src="images/home/facturacion-pic.png" alt="" class="img-responsive">
+              </div>
+              <div class="col-sm-6">
+                <h2>Facturación Electrónica</h2>
+                <p>
+                  Olvídate de pagar servicios de mensajería o impresiones, ahora  puedes emitir y recibir tus facturas de forma totalmente electrónica desde nuestro sistema MyBusiness POS.
+                </p>
+                <a href="/productos/facturacion-electronica" class="btn btn-primary">Cónoce más...</a>
+              </div>
+            </div>
+          </div>
+          <div class="padding-lv4-ver">
+            <div class="row">
+              <div class="col-sm-6">
+                <img src="images/home/tiempo-aire-pic.png" alt="" class="img-responsive">
+              </div>
+              <div class="col-sm-6">
+                <h2>Venta de Tiempo Aire</h2>
+                <p>
+                  Aprende como vender tiempo aire con tu sistema MyBusiness POS e incrementa las ganancias de tu negocio sin mayor esfuerzo.
+                </p>
+                <a href="productos/tiempo-aire" target="_blank" class="btn btn-primary">Cónoce más...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="more-products text-center container padding-lv4-bottom">
+    <div class="row">
+      <div class="product col-sm-4 padding-lv4-bottom">
+        <div class="icon text-center">
+          <img src="images/home/pos-tools-home.png" width="68" alt="">
+        </div>
+        <h4>Servicios en la nube</h4>
+        <p class="text-left body-xl-color font-size-sm">
+          Es un conjunto de servicios que permiten respaldar y sincronizar la información de los puntos de venta en servidores seguros, con objeto de compartir información y establecer control hacia éstos.
+        </p>
+        <a href="/productos/servicios-en-la-nube" class="btn btn-primary">Cónoce más...</a>
+      </div>
+      <div class="product col-sm-4 padding-lv4-bottom">
+        <div class="icon text-center">
+          <img src="images/home/conabilidad-home.png" width="48" alt="">
+        </div>
+        <h4>Contabilidad electrónica</h4>
+        <p class="text-left body-xl-color font-size-sm">
+          Es la creación de un archivo XML que se enviará electrónicamente al SAT la parte contable de la empresa
+        </p>
+        <a href="/productos/contabilidad-electronica" class="btn btn-primary">Cónoce más...</a>
+      </div>
+      <div class="product col-sm-4 padding-lv4-bottom">
+        <div class="icon text-center">
+          <img src="images/home/bill-pocket-home.png" width="57" alt="">
+        </div>
+        <h4>Bill Pocket</h4>
+        <p class="text-left body-xl-color font-size-sm">
+          Billpocket les permite recibir pagos con tarjeta de crédito y débito con tan sólo conectar el lector a su smartphone o tablet.
+        </p>
+        <a href="/productos/bill-pocket" class="btn btn-primary">Cónoce más...</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="testimonial container padding-lv4-ver">
+    <div class="col-sm-4 testimonial-pic">
+      <img src="images/home/testimonio.png" alt="" class="img-responsive">
+    </div>
+    <div class="col-sm-8 testimonial-content padding-lv4-top">
+      <p class="lead">"MyBusiness POS ha reducido mi tiempo de trabajo y aumentado mis ingresos, <span class="primary-color">ahora paso más tiempo con mi esposa e hijos”</span></p>
+      <span><strong>David Tellez</strong> - Tienda de Abarrotes Marquez</span>
+    </div>
+  </div>
+</div>
+
+
+    <div class="section-more-info">
+  <h4>
+    ¿Tienes dudas o necesitas más información?
+    <span class="light-title">
+      <a href="#">chatea con un asesor</a> o
+      <a href="/contacto">contáctanos</a>.
+    </span>
+  </h4>
+</div>
+
+<div class="footer-container padding-lv4-ver">
+  <div class="container">
+    <!--     BLOG
+    <div class="text-center">
+      <h4 class="section-title margin-lv4-bottom">Nuestro Blog</h4>
+    </div>
+    <div class="row">
+      <div class="col-sm-3 col-xs-6 blog-entry">
+        <a href="#"><img src="/images/home/mybusiness-pic.png" alt="" class="img-responsive"></a>
+        <h5 class="padding-lv3-top"><a href="#">Entrada del blog</a></h5>
+        <p class="font-size-xs">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes.
+        </p>
+        <a href="#" class="btn btn-link btn-sm">Seguir leyendo...</a>
+      </div>
+      <div class="col-sm-3 col-xs-6 blog-entry">
+        <a href="#"><img src="/images/home/mybusiness-pic.png" alt="" class="img-responsive"></a>
+        <h5 class="padding-lv3-top"><a href="#">Entrada del blog</a></h5>
+        <p class="font-size-xs">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes.
+        </p>
+        <a href="#" class="btn btn-link btn-sm">Seguir leyendo...</a>
+      </div>
+      <div class="col-sm-3 col-xs-6 blog-entry">
+        <a href="#"><img src="/images/home/mybusiness-pic.png" alt="" class="img-responsive"></a>
+        <h5 class="padding-lv3-top"><a href="#">Entrada del blog</a></h5>
+        <p class="font-size-xs">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes.
+        </p>
+        <a href="#" class="btn btn-link btn-sm">Seguir leyendo...</a>
+      </div>
+      <div class="col-sm-3 col-xs-6 blog-entry">
+        <a href="#"><img src="/images/home/mybusiness-pic.png" alt="" class="img-responsive"></a>
+        <h5 class="padding-lv3-top"><a href="#">Entrada del blog</a></h5>
+        <p class="font-size-xs">
+          Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cum sociis natoque penatibus et magnis dis parturient montes.
+        </p>
+        <a href="#" class="btn btn-link btn-sm">Seguir leyendo...</a>
+      </div>
+    <hr>
+    </div> -->
+    <div class="footer row">
+      <div class="col-sm-3 margin-lv4-bottom">
+        <a href="#"><img src="/images/digi-cert.png" width="100" alt=""></a>
+      </div>
+      <div class="col-sm-3">
+        <h6>Principal</h6>
+        <ul class="list-unstyled">
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/nosotros">Nosotros</a></li>
+          <li><a href="/registro-de-licencia">Registro de Licencia</a></li>
+          <li><a href="/cursos">Cursos</a></li>
+          <li><a href="/eventos">Eventos</a></li>
+          <li><a href="/contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h6>Productos y Servicios</h6>
+        <ul class="list-unstyled">
+          <li><a href="/productos/mybusiness">MyBusiness POS</a></li>
+          <li><a href="/productos/facturacion-electronica">Facturación electrónica</a></li>
+          <li><a href="https://tiempoaire.mybusinesspos.net/" target="_blank">Tiempo Aire</a></li>
+          <li><a href="/productos/pos-tools">POS Tools</a></li>
+          <li><a href="/productos/contabilidad-electronica">Contabilidad electrónica</a></li>
+          <li><a href="/productos/bill-pocket">Bill Pocket</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h6>Otros</h6>
+        <ul class="list-unstyled">
+          <li><a href="/productos/facturacion-electronica/autofacturacion">Autofacturacion</a></li>
+          <li><a href="/donde-comprar/distribuidores">Distribuidores</a></li>
+          <li><a href="/legales-y-privacidad">Legales y Privacidad</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="text-center">©2018 MyBusiness POS Desarrollos, S. A. de C. V.</p>
+  </div>
+</div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40199093-1', 'mybusinesspos.com');
+  ga('send', 'pageview');
+
+</script>
+
+<div class="livezilla"><!-- LiveZilla Chat Button Link Code (ALWAYS PLACE IN BODY ELEMENT) --><!-- LiveZilla Tracking Code (ALWAYS PLACE IN BODY ELEMENT) --><div id="livezilla_tracking" style="display:none"><script async="" type="text/javascript" src="https://chat.mybusinesspos.net/server.php?a=0a6b1&amp;rqst=track&amp;output=jcrpt&amp;intgroup=c29wb3J0ZQ__&amp;el=ZXM_&amp;ovlc=IzczYmUyOA__&amp;ovloo=MQ__&amp;ovloe=MQ__&amp;hots=MQ__&amp;hott=MQ__&amp;eca=MQ__&amp;ecsp=MQ__&amp;nse=0.15868118099125428"></script></div><script type="text/javascript">
+var script = document.createElement("script");script.async=true;script.type="text/javascript";var src = "https://chat.mybusinesspos.net/server.php?a=b97d2&rqst=track&output=jcrpt&nse="+Math.random();setTimeout("script.src=src;document.getElementById('livezilla_tracking').appendChild(script)",1);</script><noscript></noscript><!-- http://www.LiveZilla.net Tracking Code --><a href="javascript:void(window.open('https://chat.mybusinesspos.net/chat.php?a=a1da5','','width=590,height=760,left=0,top=0,resizable=yes,menubar=no,location=no,status=yes,scrollbars=yes'))" class="lz_cbl"><img src="https://chat.mybusinesspos.net/image.php?a=cc895&amp;id=1&amp;type=inlay&amp;cb=1520808245505" width="201" height="53" style="border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; " alt="LiveZilla Live Chat Software" class=""></a></div></div>
+
+  </body>
+
+</html>
